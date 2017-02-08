@@ -1,0 +1,253 @@
+// Basic styles 
+$open-sans: 'Open Sans Condensed', sans-serif;
+$roboto:'Roboto Condensed', sans-serif;
+$ubuntu:'Ubuntu Condensed', sans-serif;
+$dois:'Dosis', sans-serif;
+@mixin pm{
+	padding: 0;
+	margin: 0;
+}
+@mixin img{
+	height: 100px;
+}
+*{
+	font-family: $open-sans;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	text-decoration: none;
+		color: white;
+}
+.uppercase{
+	text-transform: uppercase;
+}
+// Header styles 
+// logo
+header{
+	background: #23809e;
+	position: fixed;
+	z-index: 22;
+	height: 100px;
+	display: block;
+	width: 100%;
+	.logo{
+		margin: 0 auto;
+		display: block;
+		height: 40px;
+		margin-top: 20px;
+		z-index: 1;
+	}
+	.header-info{
+		margin-top: 29px;
+		padding-bottom: 10px;
+		width: 100%;
+		display: block;
+		border-bottom: 3px solid #23809e;
+		background: white;
+		ul{
+			display: block;
+			margin: 0 auto;
+			@include pm;
+		}
+		ul li{
+			list-style-type: none;
+			display: block;
+			padding: 4px;
+			margin: 0 auto;
+			margin-top: 4px;
+		}
+		ul>li a{
+			font-family: $ubuntu;
+			text-decoration: none;
+			// color: #67b6c7;
+			font-size: 1em;
+			list-style: none;
+		}
+	}
+}
+.fix-icon{
+	z-index: 1;
+	height: 84px;
+	top: 98px;	
+	right: 0;
+	background: white;
+	width: 50px;
+	position: fixed;
+	border-bottom: 3px solid #23809e;
+	.fa-fixed{
+		font-size: 30px;
+		columns: white;
+		padding-top: 2px;
+		margin-top: 4px;
+		color: #23809e;
+	}
+	.fa-fixed:hover{
+		color: #155775;
+	}
+}
+// Header bacground container styles
+.header-bg{
+	 height: 600px;
+  	 overflow: hidden;
+  	 background-image: url(../img/piniga-header.jpg);/* bacgdround img */
+  	 background-position: center;
+ 	 background-size: cover;
+  	 background-repeat: no-repeat;
+}
+.header-bg-img{
+	@include pm;
+}
+
+
+// Albumai
+// img-albums-styles
+// animation
+
+.img-albums:hover{
+	box-shadow: 0 0 3px 3px lightgrey;
+	border: 2px solid white;
+	// padding: 1px;
+}
+// player styles
+
+// player styles
+.albums{
+	border: 1px solid white;
+	height: auto;
+	@include pm;
+	padding-bottom: 20px;
+	.img-button{
+		height: 300px;
+		padding: 4px;
+		margin: 10px;
+			}
+	.img-container{
+		overflow: hidden;
+		.img-albums{
+			height: 300px;
+			margin: 10px;
+			padding: 4px;
+		}
+	}
+	.audio-container{
+		@include pm;
+		width: 90%;
+		margin: 0 auto;
+		audio{
+			width: 100%;
+			background: white;
+		}
+	}
+	.all-audio-container{
+		width: 100%;
+		height: auto;
+		@include pm;
+	}
+}
+// allbums display none styles
+.container-1,
+.container-2,
+.container-3,
+.container-4,
+.container-5{
+	display: none;
+}
+// buttons
+
+// video row styles 
+// video container
+.video-container{
+	height: 250px;
+	margin-top: 20px!important;
+	width: 95%;
+	@include pm;
+	iframe{
+		height: 100%;
+		width: 100%;
+	}
+}
+
+
+
+// footer styles
+footer{
+	background: #23809a;
+	font-size: .9em;
+	// favicons styles !!!!!!
+	h5{
+		font-family: $roboto;
+		letter-spacing: 1.2px;
+	}
+	.fa{
+		color: white;
+		font-size: 25px;
+		@include pm;
+		position: relative;
+		top: 1px;
+	}
+	.fa-envelope{
+		// padding-left: 20px;
+	}
+}
+
+// facebook link img styles
+.fb-link{
+	@include pm;
+	overflow: hidden;
+	margin-top: 25px;
+}
+
+
+.padding{
+	padding-right: 49px;
+}
+// footer all cols styles
+.footer-col{
+	// border-left: .4px solid white;
+	margin-bottom: -12px;
+}
+.bg-container{
+	@include pm;
+	margin: 0 auto;
+	.col-link-footer{
+		@include pm;
+		padding: 10px;
+		margin-left: 2px;
+		font-size: 1.1em;
+		letter-spacing: 1px;
+		p{
+			font-family: $dois;
+		}
+		.fa{
+			display: block;
+			padding-bottom: 7px;
+			font-size: 24px;
+		}
+		a{
+			display: block;
+		}
+
+	}
+}
+
+
+// right container styles
+.right-container{
+	margin-top: 24px;
+	overflow: hidden;
+	.img-footer{
+		height: 250px;
+		padding-bottom: 20px;
+	}
+}
+.play{
+	position: fixed;
+	display: block;
+	height: 30px;
+	background: red;
+	z-index: 2000;
+	width: 200px;
+}

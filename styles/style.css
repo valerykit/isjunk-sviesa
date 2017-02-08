@@ -1,0 +1,275 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/valery\/web\/Is-sv\/styles\/style\.scss}line{font-family:\0000313}}
+* {
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/valery\/web\/Is-sv\/styles\/style\.scss}line{font-family:\0000316}}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/valery\/web\/Is-sv\/styles\/style\.scss}line{font-family:\0000320}}
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/valery\/web\/Is-sv\/styles\/style\.scss}line{font-family:\0000324}}
+.uppercase {
+  text-transform: uppercase;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/valery\/web\/Is-sv\/styles\/style\.scss}line{font-family:\0000329}}
+header {
+  background: #23809e;
+  position: fixed;
+  z-index: 222222;
+  height: 100px;
+  display: block;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/valery\/web\/Is-sv\/styles\/style\.scss}line{font-family:\0000336}}
+header .logo {
+  margin: 0 auto;
+  display: block;
+  height: 40px;
+  margin-top: 20px;
+  z-index: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/valery\/web\/Is-sv\/styles\/style\.scss}line{font-family:\0000343}}
+header .header-info {
+  margin-top: 29px;
+  padding-bottom: 10px;
+  width: 100%;
+  display: block;
+  border-bottom: 3px solid #23809e;
+  background: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/valery\/web\/Is-sv\/styles\/style\.scss}line{font-family:\0000350}}
+header .header-info ul {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/valery\/web\/Is-sv\/styles\/style\.scss}line{font-family:\0000355}}
+header .header-info ul li {
+  list-style-type: none;
+  display: block;
+  padding: 4px;
+  margin: 0 auto;
+  margin-top: 4px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/valery\/web\/Is-sv\/styles\/style\.scss}line{font-family:\0000362}}
+header .header-info ul > li a {
+  font-family: "Ubuntu Condensed", sans-serif;
+  text-decoration: none;
+  font-size: 1em;
+  list-style: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/valery\/web\/Is-sv\/styles\/style\.scss}line{font-family:\0000371}}
+.fix-icon {
+  z-index: 1;
+  height: 84px;
+  top: 98px;
+  right: 0;
+  background: white;
+  width: 50px;
+  position: fixed;
+  border-bottom: 3px solid #23809e;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/valery\/web\/Is-sv\/styles\/style\.scss}line{font-family:\0000380}}
+.fix-icon .fa-fixed {
+  font-size: 30px;
+  -webkit-columns: white;
+     -moz-columns: white;
+          columns: white;
+  padding-top: 2px;
+  margin-top: 4px;
+  color: #23809e;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/valery\/web\/Is-sv\/styles\/style\.scss}line{font-family:\0000387}}
+.fix-icon .fa-fixed:hover {
+  color: #155775;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/valery\/web\/Is-sv\/styles\/style\.scss}line{font-family:\0000392}}
+.header-bg {
+  height: 600px;
+  overflow: hidden;
+  background-image: url(../img/piniga-header.jpg);
+  /* bacgdround img */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/valery\/web\/Is-sv\/styles\/style\.scss}line{font-family:\00003100}}
+.header-bg-img {
+  padding: 0;
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/valery\/web\/Is-sv\/styles\/style\.scss}line{font-family:\00003109}}
+.img-albums:hover {
+  box-shadow: 0 0 3px 3px lightgrey;
+  border: 2px solid white;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/valery\/web\/Is-sv\/styles\/style\.scss}line{font-family:\00003117}}
+.albums {
+  border: 1px solid white;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/valery\/web\/Is-sv\/styles\/style\.scss}line{font-family:\00003122}}
+.albums .img-button {
+  height: 300px;
+  padding: 4px;
+  margin: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/valery\/web\/Is-sv\/styles\/style\.scss}line{font-family:\00003127}}
+.albums .img-container {
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/valery\/web\/Is-sv\/styles\/style\.scss}line{font-family:\00003129}}
+.albums .img-container .img-albums {
+  height: 300px;
+  margin: 10px;
+  padding: 4px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/valery\/web\/Is-sv\/styles\/style\.scss}line{font-family:\00003135}}
+.albums .audio-container {
+  padding: 0;
+  margin: 0;
+  width: 90%;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/valery\/web\/Is-sv\/styles\/style\.scss}line{font-family:\00003139}}
+.albums .audio-container audio {
+  width: 100%;
+  background: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/valery\/web\/Is-sv\/styles\/style\.scss}line{font-family:\00003144}}
+.albums .all-audio-container {
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/valery\/web\/Is-sv\/styles\/style\.scss}line{font-family:\00003151}}
+.container-1,
+.container-2,
+.container-3,
+.container-4,
+.container-5 {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/valery\/web\/Is-sv\/styles\/style\.scss}line{font-family:\00003162}}
+.video-container {
+  height: 250px;
+  margin-top: 20px !important;
+  width: 95%;
+  padding: 0;
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/valery\/web\/Is-sv\/styles\/style\.scss}line{font-family:\00003167}}
+.video-container iframe {
+  height: 100%;
+  width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/valery\/web\/Is-sv\/styles\/style\.scss}line{font-family:\00003176}}
+footer {
+  background: #23809a;
+  font-size: .9em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/valery\/web\/Is-sv\/styles\/style\.scss}line{font-family:\00003180}}
+footer h5 {
+  font-family: "Roboto Condensed", sans-serif;
+  letter-spacing: 1.2px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/valery\/web\/Is-sv\/styles\/style\.scss}line{font-family:\00003184}}
+footer .fa {
+  color: white;
+  font-size: 25px;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  top: 1px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/valery\/web\/Is-sv\/styles\/style\.scss}line{font-family:\00003197}}
+.fb-link {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  margin-top: 25px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/valery\/web\/Is-sv\/styles\/style\.scss}line{font-family:\00003204}}
+.padding {
+  padding-right: 49px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/valery\/web\/Is-sv\/styles\/style\.scss}line{font-family:\00003208}}
+.footer-col {
+  margin-bottom: -12px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/valery\/web\/Is-sv\/styles\/style\.scss}line{font-family:\00003212}}
+.bg-container {
+  padding: 0;
+  margin: 0;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/valery\/web\/Is-sv\/styles\/style\.scss}line{font-family:\00003215}}
+.bg-container .col-link-footer {
+  padding: 0;
+  margin: 0;
+  padding: 10px;
+  margin-left: 2px;
+  font-size: 1.1em;
+  letter-spacing: 1px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/valery\/web\/Is-sv\/styles\/style\.scss}line{font-family:\00003221}}
+.bg-container .col-link-footer p {
+  font-family: "Dosis", sans-serif;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/valery\/web\/Is-sv\/styles\/style\.scss}line{font-family:\00003224}}
+.bg-container .col-link-footer .fa {
+  display: block;
+  padding-bottom: 7px;
+  font-size: 24px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/valery\/web\/Is-sv\/styles\/style\.scss}line{font-family:\00003229}}
+.bg-container .col-link-footer a {
+  display: block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/valery\/web\/Is-sv\/styles\/style\.scss}line{font-family:\00003238}}
+.right-container {
+  margin-top: 24px;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/valery\/web\/Is-sv\/styles\/style\.scss}line{font-family:\00003241}}
+.right-container .img-footer {
+  height: 250px;
+  padding-bottom: 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/valery\/web\/Is-sv\/styles\/style\.scss}line{font-family:\00003246}}
+.play {
+  position: fixed;
+  display: block;
+  height: 30px;
+  background: red;
+  z-index: 2000;
+  width: 200px;
+}

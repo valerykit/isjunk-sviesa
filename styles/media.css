@@ -1,0 +1,18 @@
+
+@media screen and (min-width: 490px) and (max-width: 770px) {
+	img{
+		margin: 40px auto 0;
+	}
+}
+
+/**********             Iphone 5       ************/
+@media screen and (min-width: 300px) and (max-width: 860px) {
+		.header-bg{
+			height: 450px;
+		}
+		img{
+			margin: 60px auto 0;
+			height: 50px;
+		}
+}
+
